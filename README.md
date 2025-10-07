@@ -1,7 +1,4 @@
-﻿# recipe
-# recipe
-
-## Recipe App — Firebase Edition
+﻿## Recipe App — Firebase Edition
 
 This Android application is designed to allow users to easily create, view, edit, and delete recipes. Each recipe is stored under a specific category such as Breakfast, Lunch, Dinner, or Dessert. The app connects to **Firebase Realtime Database** for cloud storage, ensuring that data can be accessed from any device, while also saving a local copy on the user’s phone using **SharedPreferences** for offline access.
 
@@ -38,6 +35,7 @@ Local storage is handled through Android’s SharedPreferences. Each time a reci
 To run the project, simply clone it from the repository, open it in Android Studio, add the downloaded `google-services.json` file to the `/app/` directory, and sync the Gradle files. Once the build is complete, the app can be run on an Android device or emulator.
 
 This project serves as a practical example of integrating **Firebase Realtime Database** with **Android Kotlin**, demonstrating CRUD operations (Create, Read, Update, Delete), real-time data synchronization, and simple data caching for offline access. It provides a solid foundation for learning how to manage structured data and user interaction in mobile applications.
+
 
 
 
